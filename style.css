@@ -5,7 +5,7 @@
 }
 
 #index {
-    background-image: url("dvcioffi.github.io/whole_earth1.jpg");
+    background-image: url("superstudio1.jpg");
 }
 
 .main {
@@ -48,7 +48,7 @@ ul {
 
 .link {
     font-family: "Cutive Mono", "Courier New", monospace;
-	font-weight: normal;
+	font-weight: bold;
 	color: red;
 	background-color: cyan;
 	padding: 5px 0px 0px 40px;
