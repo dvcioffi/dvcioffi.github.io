@@ -48,7 +48,7 @@ ul {
 
 .link {
     font-family: "Cutive Mono", "Courier New", monospace;
-	font-weight: bold;
+	font-weight: normal;
 	color: red;
 	background-color: cyan;
 	padding: 5px 0px 0px 40px;
