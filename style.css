@@ -1,0 +1,82 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+
+#index {
+    background-image: url("img1.jpg");
+}
+
+.main {
+    background-repeat: repeat;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    display: none;
+    border: 0px solid green;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	font-size: inherit;
+}
+
+#home {
+	font-family: "Libre Barcode 128 Text", "Courier New", monospace;
+	font-size: 50px;
+	position: fixed;
+	color: blue;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#home:hover {
+	color: pink;
+}
+
+ul {
+    list-style-type: none;
+	position: fixed;
+	margin-top: 150px;
+	padding: 0;
+}
+
+.link {
+    font-family: "Cutive Mono", "Courier New", monospace;
+	font-weight: bold;
+	color: red;
+	background-color: cyan;
+	padding: 5px 0px 0px 40px;
+	margin-left: 20px;
+	box-shadow: 4px 4px 0px pink;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.link:hover {
+	border-left: 10px solid pink;
+}
+
+#content {
+    min-width: 300px;
+    max-width: 600px;
+    left: 10%;
+    right: auto;
+    position: relative;
+    overflow: auto;
+}
+
+#nav {
+    position: relative;
+	margin-top: 0px;
+    width: 150px;
+    border: 0px solid red;
+    float: left;
+    height: 100vh;
+    overflow: auto;
+}
